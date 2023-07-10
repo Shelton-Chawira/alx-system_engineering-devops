@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -c | comm -12 - <(sort | uniq -u)
+sort | uniq -u
